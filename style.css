@@ -1,39 +1,17 @@
 .father {
-    display: flex;
-    /* flex-direction: column-reverse; */
-    /* Main axis*/
-    justify-content: space-around;
-    align-content: space-around;
-    /* flex-wrap: wrap; */
-    height: 100vh;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;    
+    grid-template-rows: 100px 50px 300px;
+    column-gap:5px;
+    row-gap: 10px;
 }
 
 .child {
-    flex-basis: 300px;
-    height: 200px;
+    flex-basis: 300px;    
     background: peru;
     color: white;
-    font-size: 50px;
-    display: flex;
+    font-size: 50px;   
+    display:flex;
     justify-content: center;
     align-items: center;
 }
-
-.child:nth-child(2) {
-    background: black;
-    flex-grow: 0;
-}
-
-/*
-.child:nth-child(3) {
-    align-self: flex-end;
-} */
-
-/* .child:nth-child(1) {
-    order: 2;
-    align-self: center;
-}
-
-.child:nth-child(2) {
-    order: 3;
-} */
