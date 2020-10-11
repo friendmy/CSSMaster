@@ -23,31 +23,35 @@
 - [x] row-gap
 - [x] gap
 - [x] grid-template-areas
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
-- [ ] grid-template
-- [ ] justify-items
-- [ ] align-items
-- [ ] justify-content
-- [ ] align-content
-- [ ] grid-auto-columns
-- [ ] grid-auto-rows
-- [ ] grid-auto-flow
-- [ ] justify-self
-- [ ] align-self
+- [x] grid-column-start
+- [x] grid-column-end
+- [x] grid-row-start
+- [x] grid-row-end
+- [x] grid-column
+- [x] grid-row
+- [x] grid-template
+- [x] justify-items
+- [x] align-items
+- [x] place-items
+- [x] justify-content
+- [x] align-content
+- [x] place-content
+- [x] justify-self
+- [x] align-self
+- [x] place-self
+- [x] grid-auto-rows
+- [x] grid-auto-flow
+- [x] grid-auto-columns
 
 ### Keywords & Functions:
 
-- [ ] repeat
-- [ ] min-content
-- [ ] max-content
-- [ ] minmax
-- [ ] auto-fit
-- [ ] auto-fill
+- [x] repeat
+- [x] fr
+- [x] minmax
+- [x] auto-fit
+- [x] auto-fill
+- [x] min-content
+- [x] max-content
 
 ## SCSS:
 
@@ -56,7 +60,7 @@
 - [ ] Partials
 - [ ] Mixins
 - [ ] Extend
-- [ ] Responsive
+- [ ] Responsive Mixins
 
 ## To Clone:
 
